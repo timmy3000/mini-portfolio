@@ -388,38 +388,38 @@ export default function Home() {
         }
 
       `}</style>
-    
-        <Script>{`
+  
+      <Script>{`
 
-          var dots = document.getElementById("dots");
-          var more = document.getElementById("more");
-          var read_button = document.getElementById("read_button");
+        var dots = document.getElementById("dots");
+        var more = document.getElementById("more");
+        var read_button = document.getElementById("read_button");
 
 
-          read_button.addEventListener("click", () => {
-            if(dots.style.display === "none") {
-              dots.style.display = "inline";
-              read_button.innerHTML = "Read more";
-              more.style.display = "none";
-        
-            } else {
-              dots.style.display = "none";
-              read_button.innerHTML = "Read less";
-              more.style.display = "inline";
-        
-            }
-          });
-
-          //getting the year
-          function getYear() {
-              var the_date = new Date();
-              document.getElementById("year").innerHTML = the_date.getFullYear();
+        read_button.addEventListener("click", () => {
+          if(dots.style.display === "none") {
+            dots.style.display = "inline";
+            read_button.innerHTML = "Read more";
+            more.style.display = "none";
+      
+          } else {
+            dots.style.display = "none";
+            read_button.innerHTML = "Read less";
+            more.style.display = "inline";
+      
           }
-          getYear();
+        });
 
-        `}</Script>
-          
-    
+        //getting the year
+        function getYear() {
+            var the_date = new Date();
+            document.getElementById("year").innerHTML = the_date.getFullYear();
+        }
+        getYear();
+
+      `}</Script>
+        
+  
 
     
     </div>
