@@ -381,9 +381,6 @@ export default function Home() {
           background: #cfcfcf;
         }
         body::-webkit-scrollbar-thumb {
-          background: #0000007a;
-        }
-        body::-webkit-scrollbar-thumb:hover {    
           background: #000;
         }
 
