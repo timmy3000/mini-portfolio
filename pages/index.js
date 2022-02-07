@@ -71,21 +71,7 @@ export default function Home() {
                 <li>UML</li>
               </ul>
 
-              <h3>Why I want to be a developer at SovTech?</h3>
-              <p>
-                i really admire the company culture and 
-                i am rest assured that the work environment is interesting too.
-
-                The organization contains individuals that are highly 
-                dedicated & willing to the organization to the greater hights
-                and my skills set fit those requirements perfectly.
-
-                Working with the elite team at SovTech will become a dream come true 
-                since that will give a chance to: learn more about my line of work
-                and meet like minded people.
-
-
-              </p>
+             
 
             </span>
           </p>
